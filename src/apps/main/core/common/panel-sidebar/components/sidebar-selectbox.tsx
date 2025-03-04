@@ -4,10 +4,10 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 import { For, } from "solid-js";
-import { panelSidebarData } from "../data/data";
-import { PanelSidebarButton } from "./sidebar-panel-button";
-import { setPanelSidebarAddModalState } from "./panel-sidebar-modal";
-import { CPanelSidebar } from "./panel-sidebar";
+import { panelSidebarData } from "../data/data.ts";
+import { PanelSidebarButton } from "./sidebar-panel-button.tsx";
+import { setPanelSidebarAddModalState } from "./panel-sidebar-modal.tsx";
+import { CPanelSidebar } from "./panel-sidebar.tsx";
 
 
 

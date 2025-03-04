@@ -5,9 +5,9 @@
 
 
 import { onCleanup } from "@nora/solid-xul";
-import { TabColorManager } from "./tabcolor-manager";
+import { TabColorManager } from "./tabcolor-manager.tsx";
 import chroma from "chroma-js"
-import { noraComponent, NoraComponentBase } from "@core/utils/base";
+import { noraComponent, NoraComponentBase } from "@core/utils/base.ts";
 const { ManifestObtainer } = ChromeUtils.importESModule("resource://gre/modules/ManifestObtainer.sys.mjs");
 
 export let manager: TabColorManager;

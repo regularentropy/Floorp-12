@@ -6,8 +6,8 @@
 import { createSignal, For, onCleanup } from "solid-js";
 import type { JSX } from "solid-js";
 import { render, createRootHMR } from "@nora/solid-xul";
-import type { Manifest } from "./type";
-import type { PwaService } from "./pwaService";
+import type { Manifest } from "./type.ts";
+import type { PwaService } from "./pwaService.ts";
 
 export class SsbPanelView {
   private static installedApps = createSignal<Manifest[]>([]);

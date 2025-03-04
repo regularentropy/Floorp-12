@@ -4,8 +4,8 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 import { createEffect } from "solid-js";
-import { isFloating, panelSidebarConfig, setSelectedPanelId } from "../data/data";
-import { STATIC_PANEL_DATA } from "../data/static-panels";
+import { isFloating, panelSidebarConfig, setSelectedPanelId } from "../data/data.ts";
+import { STATIC_PANEL_DATA } from "../data/static-panels.ts";
 
 const { AppConstants } = ChromeUtils.importESModule(
   "resource://gre/modules/AppConstants.sys.mjs",

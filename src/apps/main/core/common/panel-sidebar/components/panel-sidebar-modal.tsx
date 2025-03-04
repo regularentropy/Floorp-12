@@ -5,12 +5,12 @@
 
 import { createEffect, createSignal, For, Show } from "solid-js";
 import { render } from "@nora/solid-xul";
-import { ShareModal } from "@core/utils/modal";
-import type { Panel } from "../utils/type";
+import { ShareModal } from "@core/utils/modal/index.tsx";
+import type { Panel } from "../utils/type.ts";
 import modalStyle from "./modal-style.css?inline";
-import { getFirefoxSidebarPanels } from "../extension-panels";
-import { STATIC_PANEL_DATA } from "../data/static-panels";
-import { setPanelSidebarData } from "../data/data";
+import { getFirefoxSidebarPanels } from "../extension-panels.ts";
+import { STATIC_PANEL_DATA } from "../data/static-panels.ts";
+import { setPanelSidebarData } from "../data/data.ts";
 
 const { ContextualIdentityService } = ChromeUtils.importESModule(
   "resource://gre/modules/ContextualIdentityService.sys.mjs",

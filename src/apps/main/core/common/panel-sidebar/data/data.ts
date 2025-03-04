@@ -14,14 +14,14 @@ import {
   defaultEnabled,
   strDefaultConfig,
   strDefaultData,
-} from "../utils/default-prerf.js";
-import { PanelSidebarStaticNames } from "../utils/panel-sidebar-static-names.js";
+} from "../utils/default-prerf.ts";
+import { PanelSidebarStaticNames } from "../utils/panel-sidebar-static-names.ts";
 import {
   type Panels,
   type PanelSidebarConfig,
   zPanels,
   zPanelSidebarConfig,
-} from "../utils/type.js";
+} from "../utils/type.ts";
 import { createRootHMR } from "@nora/solid-xul";
 
 function createPanelSidebarData(): [Accessor<Panels>, Setter<Panels>] {

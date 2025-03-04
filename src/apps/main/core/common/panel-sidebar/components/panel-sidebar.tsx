@@ -4,20 +4,20 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 import { render } from "@nora/solid-xul";
-import { ChromeSiteBrowser } from "../browsers/chrome-site-browser";
-import { ExtensionSiteBrowser } from "../browsers/extension-site-browser";
-import { WebSiteBrowser } from "../browsers/web-site-browser";
+import { ChromeSiteBrowser } from "../browsers/chrome-site-browser.tsx";
+import { ExtensionSiteBrowser } from "../browsers/extension-site-browser.tsx";
+import { WebSiteBrowser } from "../browsers/web-site-browser.tsx";
 import {
   panelSidebarConfig,
   panelSidebarData,
   selectedPanelId,
   setPanelSidebarData,
   setSelectedPanelId,
-} from "../data/data";
-import type { Panel } from "../utils/type";
+} from "../data/data.ts";
+import type { Panel } from "../utils/type.ts";
 import { createEffect } from "solid-js";
-import { getExtensionSidebarAction } from "../extension-panels";
-import { WebsitePanel } from "../website-panel-window-parent";
+import { getExtensionSidebarAction } from "../extension-panels.ts";
+import { WebsitePanel } from "../website-panel-window-parent.ts";
 
 export class CPanelSidebar {
 

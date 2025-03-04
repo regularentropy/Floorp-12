@@ -3,8 +3,8 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-import { BrowserActionUtils } from "@core/utils/browser-action";
-import { MenuPopup } from "./menupopup";
+import { BrowserActionUtils } from "../../utils/browser-action.tsx";
+import { MenuPopup } from "./menupopup.tsx";
 import profileManagerStyle from "./profile-manager.css?inline";
 
 const { CustomizableUI } = ChromeUtils.importESModule(

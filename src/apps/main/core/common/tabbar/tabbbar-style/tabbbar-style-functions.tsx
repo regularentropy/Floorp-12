@@ -3,9 +3,9 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-import { checkPaddingEnabled } from "./titilebar-padding";
-import { config } from "../../designs/configs";
-import { TabbarStyleModifyCSSElement } from "./tabbar-style-element";
+import { checkPaddingEnabled } from "./titilebar-padding.ts";
+import { config } from "../../designs/configs.ts";
+import { TabbarStyleModifyCSSElement } from "./tabbar-style-element.tsx";
 import { render } from "@nora/solid-xul";
 
 export namespace gTabbarStyleFunctions {

@@ -4,10 +4,10 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 import { render } from "@nora/solid-xul";
-import { ContextMenu } from "./context-menu";
-import { StatusBarElem } from "./statusbar";
-import { StatusBarManager } from "./statusbar-manager";
-import { noraComponent, NoraComponentBase } from "@core/utils/base";
+import { ContextMenu } from "./context-menu.tsx";
+import { StatusBarElem } from "./statusbar.tsx";
+import { StatusBarManager } from "./statusbar-manager.tsx";
+import { noraComponent, NoraComponentBase } from "../../utils/base.ts";
 
 export let manager: StatusBarManager;
 

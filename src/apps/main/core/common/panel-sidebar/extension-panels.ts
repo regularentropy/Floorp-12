@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-import type { MapSidebars, Sidebar } from "./utils/type";
+import type { MapSidebars, Sidebar } from "./utils/type.ts";
 
 const { WebExtensionPolicy } = Cu.getGlobalForObject(Services);
 

@@ -4,9 +4,9 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 import { render } from "@nora/solid-xul";
-import { CPanelSidebar } from "./panel-sidebar";
+import { CPanelSidebar } from "./panel-sidebar.tsx";
 import { createSignal, Show } from "solid-js";
-import type { Panel } from "../utils/type";
+import type { Panel } from "../utils/type.ts";
 
 export const [contextPanel, setContextPanel] = createSignal<Panel | null>(null);
 

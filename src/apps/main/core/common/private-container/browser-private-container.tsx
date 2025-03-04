@@ -3,8 +3,8 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-import { ContextMenuUtils } from "@core/utils/context-menu";
-import { PrivateContainer } from "./PrivateContainer";
+import { ContextMenuUtils } from "../../utils/context-menu.tsx";
+import { PrivateContainer } from "./PrivateContainer.ts";
 import { createRootHMR } from "@nora/solid-xul";
 
 export class FloorpPrivateContainer {

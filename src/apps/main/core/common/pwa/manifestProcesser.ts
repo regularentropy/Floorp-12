@@ -3,8 +3,8 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-import type { Manifest, Browser, Icon } from "./type.js";
-import { IconProcesser } from "./iconProcesser";
+import type { Manifest, Browser, Icon } from "./type.ts";
+import { IconProcesser } from "./iconProcesser.ts";
 
 const { ManifestObtainer } = ChromeUtils.importESModule(
   "resource://gre/modules/ManifestObtainer.sys.mjs"

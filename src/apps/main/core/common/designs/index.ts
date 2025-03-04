@@ -4,13 +4,14 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 import { render } from "@nora/solid-xul";
-import { BrowserDesignElement } from "./browser-design-element";
-import { noraComponent, NoraComponentBase } from "@core/utils/base";
+import { BrowserDesignElement } from "./browser-design-element.tsx";
+import { noraComponent, NoraComponentBase } from "@core/utils/base.ts";
+
 @noraComponent(import.meta.hot)
 export default class Designs extends NoraComponentBase {
   init(): void {
-      //render(BrowserStyle, document.head);
-    render(()=>{return BrowserDesignElement()}, document?.head);
+    //render(BrowserStyle, document.head);
+    render(() => BrowserDesignElement(), document?.head);
 
     window.gURLBar.updateLayoutBreakout();
   }

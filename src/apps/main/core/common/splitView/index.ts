@@ -3,10 +3,10 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-import { CSplitView } from "./splitView";
-import { SplitViewManager } from "./manager";
-import { SplitViewContextMenu } from "./tabContextMenu";
-import { noraComponent, NoraComponentBase } from "@core/utils/base";
+import { CSplitView } from "./splitView.tsx";
+import { SplitViewManager } from "./manager.tsx";
+import { SplitViewContextMenu } from "./tabContextMenu.tsx";
+import { noraComponent, NoraComponentBase } from "@core/utils/base.ts";
 
 //TODO: refactor needed
 @noraComponent(import.meta.hot)

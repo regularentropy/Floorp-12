@@ -1,4 +1,4 @@
-import { zFloorpDesignConfigs } from "../../../../../common/scripts/global-types/type.ts";
+import type { zFloorpDesignConfigs } from "../../../../../common/scripts/global-types/type.ts";
 
 import leptonUserJs from "@nora/skin/lepton/userjs/lepton.js?raw";
 import photonUserJs from "@nora/skin/lepton/userjs/photon.js?raw";
@@ -6,7 +6,7 @@ import protonfixUserJs from "@nora/skin/lepton/userjs/protonfix.js?raw";
 import leptonTabStyles from "@nora/skin/lepton/css/leptonContent.css?url";
 import fluerialStyles from "@nora/skin/fluerial/css/fluerial.css?url";
 import leptonChromeStyles from "@nora/skin/lepton/css/leptonChrome.css?url";
-import { z } from "zod";
+import type { z } from "zod";
 
 interface FCSS {
   styles: string[];
@@ -23,19 +23,19 @@ export function getCSSFromConfig(
     case "lepton": {
       return {
         styles: [leptonChromeStyles, leptonTabStyles],
-        userjs: leptonUserJs,
+        userjs: leptonUserJs as string,
       };
     }
     case "photon": {
       return {
         styles: [leptonChromeStyles, leptonTabStyles],
-        userjs: photonUserJs,
+        userjs: photonUserJs as string,
       };
     }
     case "protonfix": {
       return {
         styles: [leptonChromeStyles, leptonTabStyles],
-        userjs: protonfixUserJs,
+        userjs: protonfixUserJs as string,
       };
     }
     case "proton": {

@@ -5,7 +5,7 @@
 
 import { createRootHMR, render } from "@nora/solid-xul";
 import { createSignal, onCleanup } from "solid-js";
-import { panelSidebarConfig } from "../panel-sidebar/data/data";
+import { panelSidebarConfig } from "../panel-sidebar/data/data.ts";
 
 type Orders = {
   fxSidebar: number,
@@ -90,7 +90,7 @@ export namespace gFlexOrder {
   }
 
   function renderOrderStyle() {
-    render(() => <style jsx>{`
+    render(() => <style>{`
       #${fxSidebarId} {
         order: ${orders().fxSidebar} !important;
       }

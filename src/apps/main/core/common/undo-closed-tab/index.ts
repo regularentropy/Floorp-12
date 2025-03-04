@@ -3,11 +3,11 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-import { noraComponent, NoraComponentBase } from "@core/utils/base";
+import { noraComponent, NoraComponentBase } from "@core/utils/base.ts";
 import { createRootHMR } from "@nora/solid-xul";
-import { addI18nObserver } from "../../../i18n/config";
-import { StyleElement } from "./styleElem";
-import { BrowserActionUtils } from "@core/utils/browser-action";
+import { addI18nObserver } from "../../../i18n/config.ts";
+import { StyleElement } from "./styleElem.tsx";
+import { BrowserActionUtils } from "@core/utils/browser-action.tsx";
 import i18next from "i18next";
 
 const { CustomizableUI } = ChromeUtils.importESModule(

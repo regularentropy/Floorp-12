@@ -3,9 +3,9 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-import { noraComponent, NoraComponentBase } from "@core/utils/base";
-import { MultirowTabbarClass } from "./multirow-tabbar/multirow-tabbar";
-import { TabbarStyleClass } from "./tabbbar-style/tabbar-style";
+import { noraComponent, NoraComponentBase } from "@core/utils/base.ts";
+import { MultirowTabbarClass } from "./multirow-tabbar/multirow-tabbar.tsx";
+import { TabbarStyleClass } from "./tabbbar-style/tabbar-style.ts";
 
 @noraComponent(import.meta.hot)
 export default class TabBar extends NoraComponentBase {

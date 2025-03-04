@@ -4,7 +4,7 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 import { render } from "@nora/solid-xul";
-import { CSplitView } from "./splitView";
+import { CSplitView } from "./splitView.tsx";
 
 export class SplitViewContextMenu {
 

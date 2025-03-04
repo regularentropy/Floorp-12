@@ -6,7 +6,7 @@
 import { createSignal, Show } from "solid-js";
 import type { JSX } from "solid-js";
 import { render } from "@nora/solid-xul";
-import type { PwaService } from "./pwaService";
+import type { PwaService } from "./pwaService.ts";
 
 export class SsbPageAction {
   private isInstalling = createSignal(false);

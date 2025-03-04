@@ -5,18 +5,18 @@
 
 import { render } from "@nora/solid-xul";
 import style from "./style.css?inline";
-import { SidebarHeader } from "./sidebar-header";
-import { SidebarSelectbox } from "./sidebar-selectbox";
-import { SidebarSplitter } from "./sidebar-splitter";
+import { SidebarHeader } from "./sidebar-header.tsx";
+import { SidebarSelectbox } from "./sidebar-selectbox.tsx";
+import { SidebarSplitter } from "./sidebar-splitter.tsx";
 import { createEffect, Show } from "solid-js";
 import {
   selectedPanelId,
   isFloating,
   isPanelSidebarEnabled,
-} from "../data/data";
-import { FloatingSplitter } from "./floating-splitter";
-import { BrowserBox } from "./browser-box";
-import { CPanelSidebar } from "./panel-sidebar";
+} from "../data/data.ts";
+import { FloatingSplitter } from "./floating-splitter.tsx";
+import { BrowserBox } from "./browser-box.tsx";
+import { CPanelSidebar } from "./panel-sidebar.tsx";
 
 export class PanelSidebarElem {
 

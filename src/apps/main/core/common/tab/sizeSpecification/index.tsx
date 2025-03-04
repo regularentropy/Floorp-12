@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-import { config } from "@core/common/designs/configs";
+import { config } from "../../designs/configs.ts";
 import { createEffect } from "solid-js";
 import style from "./style.css?inline";
 import { render } from "@nora/solid-xul";

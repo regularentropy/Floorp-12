@@ -3,8 +3,8 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-import { noraComponent, NoraComponentBase } from "@core/utils/base";
-import { CProfileManager } from "./profile-manager";
+import { noraComponent, NoraComponentBase } from "../../utils/base.ts";
+import { CProfileManager } from "./profile-manager.tsx";
 
 @noraComponent(import.meta.hot)
 export default class ProfileManager extends NoraComponentBase {

@@ -5,6 +5,8 @@
   },
   "imports": {
     "@typescript/lib-dom": "jsr:@nora/lib-dom-gecko",
-    "@nora/skin/": "../../packages/skin/"
+    "@nora/skin/": "../../packages/skin/",
+    "@nora/solid-xul": "../../packages/solid-xul/index.ts",
+    "@core/": "./core/"
   }
 }

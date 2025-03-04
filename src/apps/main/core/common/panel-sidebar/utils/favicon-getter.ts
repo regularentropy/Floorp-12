@@ -3,9 +3,9 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-import type { Panel } from "./type";
-import { STATIC_PANEL_DATA } from "../data/static-panels";
-import { getSidebarIconFromSidebarController } from "../extension-panels";
+import type { Panel } from "./type.ts";
+import { STATIC_PANEL_DATA } from "../data/static-panels.ts";
+import { getSidebarIconFromSidebarController } from "../extension-panels.ts";
 
 const { PlacesUtils } = ChromeUtils.importESModule(
   "resource://gre/modules/PlacesUtils.sys.mjs",

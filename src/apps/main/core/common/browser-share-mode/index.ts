@@ -4,8 +4,8 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 import { render } from "@nora/solid-xul";
-import { ShareModeElement } from "./browser-share-mode";
-import { noraComponent, NoraComponentBase } from "@core/utils/base";
+import { ShareModeElement } from "./browser-share-mode.tsx";
+import { noraComponent, NoraComponentBase } from "@core/utils/base.ts";
 
 @noraComponent(import.meta.hot)
 export default class BrowserShareMode extends NoraComponentBase {

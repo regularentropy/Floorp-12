@@ -4,7 +4,7 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 import { createEffect } from "solid-js";
-import { gTabbarStyleFunctions } from "./tabbbar-style-functions";
+import { gTabbarStyleFunctions } from "./tabbbar-style-functions.tsx";
 
 export class TabbarStyleClass {
   private get tabbarWindowManageContainer() {

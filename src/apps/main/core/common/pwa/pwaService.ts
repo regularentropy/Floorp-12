@@ -3,10 +3,10 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-import type { SiteSpecificBrowserManager } from "./ssbManager";
-import type { ManifestProcesser } from "./manifestProcesser";
-import type { DataManager } from "./dataStore";
-import type { Browser } from "./type";
+import type { SiteSpecificBrowserManager } from "./ssbManager.ts";
+import type { ManifestProcesser } from "./manifestProcesser.ts";
+import type { DataManager } from "./dataStore.ts";
+import type { Browser } from "./type.ts";
 
 export class PwaService {
   constructor(

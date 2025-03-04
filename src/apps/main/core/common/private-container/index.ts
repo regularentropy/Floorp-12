@@ -4,9 +4,9 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 import { render } from "@nora/solid-xul";
-import { FloorpPrivateContainer } from "./browser-private-container";
-import { ContextMenu } from "./context-menu";
-import { noraComponent, NoraComponentBase } from "@core/utils/base";
+import { FloorpPrivateContainer } from "./browser-private-container.tsx";
+import { ContextMenu } from "./context-menu.tsx";
+import { noraComponent, NoraComponentBase } from "../../utils/base.ts";
 
 @noraComponent(import.meta.hot)
 export default class PrivateContainer extends NoraComponentBase {

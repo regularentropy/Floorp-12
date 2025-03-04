@@ -6,9 +6,9 @@
 
 import { render, createRootHMR } from "@nora/solid-xul";
 import { createSignal } from "solid-js";
-import { config } from "./config";
+import { config } from "./config.ts";
 import PwaWindowStyle from "./pwa-window-style.css?inline";
-import type { PwaService } from "./pwaService";
+import type { PwaService } from "./pwaService.ts";
 
 export class PwaWindowSupport {
   private ssbId = createSignal<string | null>(null);

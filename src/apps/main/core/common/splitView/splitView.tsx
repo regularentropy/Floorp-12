@@ -3,9 +3,9 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-import { SplitViewStaticNames } from "./utils/static-names";
+import { SplitViewStaticNames } from "./utils/static-names.ts";
 import { render } from "@nora/solid-xul";
-import type { TSplitViewDatum, Tab, TabEvent } from "./utils/type";
+import type { TSplitViewDatum, Tab, TabEvent } from "./utils/type.ts";
 import splitViewStyles from "./style.css?inline";
 import {
   currentSplitView,
@@ -14,7 +14,7 @@ import {
   splitViewData,
   setFixedSplitViewData,
   fixedSplitViewData,
-} from "./utils/data";
+} from "./utils/data.ts";
 
 export class CSplitView {
 

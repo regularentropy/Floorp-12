@@ -4,7 +4,7 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 import { createEffect, } from "solid-js";
-import { isFloatingDragging } from "../data/data";
+import { isFloatingDragging } from "../data/data.ts";
 
 export function BrowserBox() {
   createEffect(() => {

@@ -8,12 +8,12 @@ import {
   getOldInterfaceConfig,
   getOldTabbarPositionConfig,
   getOldTabbarStyleConfig,
-} from "./utils/old-config-migrator";
+} from "@core/common/designs/utils/old-config-migrator.ts";
 import {
   type TFloorpDesignConfigs,
   zFloorpDesignConfigs,
-} from "../../../../../apps/common/scripts/global-types/type";
-import { } from "@core/utils/base";
+} from "../../../../../apps/common/scripts/global-types/type.ts";
+import { } from "@core/utils/base.ts";
 import { createRootHMR } from "@nora/solid-xul";
 
 const oldObjectConfigs: TFloorpDesignConfigs = {

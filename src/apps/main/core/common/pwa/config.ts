@@ -4,8 +4,8 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 import { createEffect, createSignal, onCleanup, createRoot } from "solid-js";
-import { zPwaConfig, type TPwaConfig } from "./type";
-import { defaultEnabled, strDefaultConfig } from "./default-pref";
+import { zPwaConfig, type TPwaConfig } from "./type.ts";
+import { defaultEnabled, strDefaultConfig } from "./default-pref.ts";
 
 // Initialize default preferences if they don't exist
 if (!Services.prefs.prefHasUserValue("floorp.browser.ssb.enabled")) {

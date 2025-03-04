@@ -4,7 +4,7 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 import { Accessor, createSignal, Setter } from "solid-js";
-import type { TFixedSplitViewDataGroup, TSplitViewData } from "./type";
+import type { TFixedSplitViewDataGroup, TSplitViewData } from "./type.ts";
 import { createRootHMR } from "@nora/solid-xul";
 
 /** SplitView data */

@@ -3,9 +3,9 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-import type { DataManager } from "./dataStore";
-import type { Manifest } from "./type";
-import { SiteSpecificBrowserManager } from "./ssbManager";
+import type { DataManager } from "./dataStore.ts";
+import type { Manifest } from "./type.ts";
+import { SiteSpecificBrowserManager } from "./ssbManager.ts";
 
 const { AppConstants } = ChromeUtils.importESModule(
   "resource://gre/modules/AppConstants.sys.mjs",

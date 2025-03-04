@@ -3,10 +3,10 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-import type { Browser, Manifest, Icon } from "./type";
-import { DataManager } from "./dataStore";
-import { IconProcesser } from "./iconProcesser";
-import { ManifestProcesser } from "./manifestProcesser";
+import type { Browser, Manifest, Icon } from "./type.ts";
+import { DataManager } from "./dataStore.ts";
+import { IconProcesser } from "./iconProcesser.ts";
+import { ManifestProcesser } from "./manifestProcesser.ts";
 import { createSignal, createEffect } from "solid-js";
 
 export class ProgressiveWebApp {

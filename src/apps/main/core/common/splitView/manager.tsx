@@ -4,10 +4,10 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 import { Show } from "solid-js/web";
-import { Popup } from "./popup";
-import { currentSplitView } from "./utils/data";
+import { Popup } from "./popup.tsx";
+import { currentSplitView } from "./utils/data.ts";
 import { render } from "@nora/solid-xul";
-import { CSplitView } from "./splitView";
+import { CSplitView } from "./splitView.tsx";
 
 export class SplitViewManager {
 

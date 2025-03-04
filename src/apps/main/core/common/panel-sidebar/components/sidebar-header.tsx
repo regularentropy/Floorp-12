@@ -9,9 +9,9 @@ import {
   setSelectedPanelId,
   setIsFloating,
   isFloating,
-} from "../data/data";
-import { PanelNavigator } from "../panel-navigator";
-import { CPanelSidebar } from "./panel-sidebar";
+} from "../data/data.ts";
+import { PanelNavigator } from "../panel-navigator.ts";
+import { CPanelSidebar } from "./panel-sidebar.tsx";
 
 export function SidebarHeader(props:{ctx:CPanelSidebar}) {
   const gPanelSidebar = props.ctx;

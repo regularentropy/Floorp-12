@@ -3,9 +3,9 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-import type { SiteSpecificBrowserManager } from "../ssbManager";
-import { ImageTools } from "../imageTools";
-import type { Manifest } from "../type";
+import type { SiteSpecificBrowserManager } from "../ssbManager.ts";
+import { ImageTools } from "../imageTools.ts";
+import type { Manifest } from "../type.ts";
 
 export class WindowsSupport {
   private static shellService = Cc["@mozilla.org/browser/shell-service;1"].getService(

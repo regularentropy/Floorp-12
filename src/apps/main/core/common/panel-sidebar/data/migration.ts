@@ -3,8 +3,8 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-import { PanelSidebarStaticNames } from "../utils/panel-sidebar-static-names";
-import type { PanelSidebarConfig } from "../utils/type";
+import { PanelSidebarStaticNames } from "../utils/panel-sidebar-static-names.ts";
+import type { PanelSidebarConfig } from "../utils/type.ts";
 
 export function migratePanelSidebarData() {
   const oldData = Services.prefs.getCharPref(
